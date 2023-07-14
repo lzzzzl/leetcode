@@ -65,7 +65,7 @@ class Solution3:
     def mySqrt(self, x: int) -> int:
         if x <= 1:
             return x
-        y = x
+        y = x // 2
         while y * y > x:
             y = (y + x / y) // 2
         return int(y)
