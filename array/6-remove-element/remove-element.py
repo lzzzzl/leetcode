@@ -15,3 +15,29 @@ class Solution1:
             else:
                 i += 1
         return n
+    
+
+class Solution2:
+    """解法二: 双指针
+    """
+    def removeElement(self, nums: List[int], val: int) -> int:
+        fast = 0
+        slow = 0
+        while fast < len(nums):
+            if nums[fast] != val:
+                nums[slow] = nums[fast]
+                slow += 1
+            fast += 1
+        return fast
+    
+
+class Solution3:
+    """解法三: 双指针的另一种写法
+    """
+    def removeElement(self, nums: List[int], val: int) -> int:
+        i = 0
+        for j in range(len(nums)):
+            if nums[j] != val:
+                nums[i] = nums[j]
+                i += 1
+        return i
