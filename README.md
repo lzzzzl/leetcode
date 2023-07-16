@@ -8,3 +8,4 @@
 4. [x的平方根](https://leetcode.cn/problems/sqrtx/)
 5. [有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 6. [移除元素](https://leetcode.cn/problems/remove-element/)
+7. [删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
