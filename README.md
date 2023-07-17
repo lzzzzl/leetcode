@@ -9,3 +9,4 @@
 5. [有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 6. [移除元素](https://leetcode.cn/problems/remove-element/)
 7. [删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
+8. [移动零](https://leetcode.cn/problems/move-zeroes/)
