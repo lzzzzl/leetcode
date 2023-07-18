@@ -10,3 +10,4 @@
 6. [移除元素](https://leetcode.cn/problems/remove-element/)
 7. [删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
 8. [移动零](https://leetcode.cn/problems/move-zeroes/)
+9. [比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/)
