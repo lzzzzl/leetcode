@@ -1,7 +1,9 @@
 from types import List
 
 
-class Solution:
+class Solution1:
+    """解法一: 双指针法
+    """
     def sortedSquares(self, nums: List[int]) -> List[int]:
         n = len(nums)
         res = [0] * n
@@ -15,3 +17,13 @@ class Solution:
                 j -= 1
             pos -= 1
         return res
+
+
+class Solution2:
+    """解法二: 暴力法
+    """
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        for i in range(len(nums)):
+            nums[i] = pow(nums[i], 2)
+        nums.sort()
+        return nums
