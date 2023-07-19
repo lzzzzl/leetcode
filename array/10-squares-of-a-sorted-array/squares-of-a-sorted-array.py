@@ -14,4 +14,4 @@ class Solution:
                 res[pos] = nums[j] ** 2
                 j -= 1
             pos -= 1
-        return res       
+        return res
