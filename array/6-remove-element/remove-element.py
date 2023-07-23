@@ -28,7 +28,7 @@ class Solution2:
                 nums[slow] = nums[fast]
                 slow += 1
             fast += 1
-        return fast
+        return slow
     
 
 class Solution3:
