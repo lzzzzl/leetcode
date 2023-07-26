@@ -29,4 +29,3 @@ class Solution2:
             i += 1
         for _ in range(j):
             nums.append(0)
-        return nums
