@@ -32,6 +32,8 @@ func (s Solution2) search(nums []int, target int) int {
 			left = middle + 1
 		} else if nums[middle] > target {
 			right = middle
+		} else {
+			return middle
 		}
 	}
 

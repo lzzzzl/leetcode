@@ -1,4 +1,5 @@
-from types import List
+from typing import List
+
 
 class Solution1:
     """解法一: 左闭右闭

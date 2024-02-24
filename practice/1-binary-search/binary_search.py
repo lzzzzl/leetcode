@@ -2,26 +2,29 @@ from types import List
 
 
 class Solution1:
-    """解法一: 左闭右开
+    """解法一: 左闭右闭
     """
-    def searchInsert(self, nums: List[int], target: int) -> int:
+
+    def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
 
         while left <= right:
             middle = (left + right) // 2
-            if nums[middle] > target:
-                right = middle - 1
-            elif nums[middle] < target:
+            if nums[middle] < target:
                 left = middle + 1
+            elif nums[middle] > target:
+                right = middle - 1
             else:
                 return middle
-        return right + 1
+
+        return -1
 
 
 class Solution2:
-    """解法二: 左闭右闭
+    """解法二: 左闭右开
     """
-    def searchInsert(self, nums: List[int], target: int) -> int:
+
+    def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums)
 
         while left < right:
@@ -32,4 +35,5 @@ class Solution2:
                 left = middle + 1
             else:
                 return middle
-        return right
+            
+        return -1
