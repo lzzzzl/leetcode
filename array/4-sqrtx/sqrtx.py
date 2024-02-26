@@ -14,6 +14,7 @@ class Solution1:
                 right = middle - 1
             else:
                 left = middle + 1
+        return -1
 
 
 class Solution2:
@@ -32,6 +33,7 @@ class Solution2:
                 right = middle
             else:
                 left = middle + 1
+        return -1
 
 
 class Solution3:
