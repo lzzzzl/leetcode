@@ -1,4 +1,4 @@
-from types import List
+from typing import List
 
 
 class Solution1:
@@ -15,7 +15,7 @@ class Solution1:
             else:
                 i += 1
         return n
-    
+
 
 class Solution2:
     """解法二: 双指针
