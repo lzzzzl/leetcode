@@ -28,7 +28,8 @@ class Solution2:
                 if s_slow != 0:
                     s_slow -= 1
                 continue
-            if s_slow != fast: s[s_slow] = s[fast]
+            if s_slow != fast: 
+                s[s_slow] = s[fast]
             s_slow += 1
         
         for fast, x in enumerate(t):
@@ -36,7 +37,8 @@ class Solution2:
                 if t_slow != 0:
                     t_slow -= 1
                 continue
-            if t_slow != fast: t[t_slow] = t[fast]
+            if t_slow != fast: 
+                t[t_slow] = t[fast]
             t_slow += 1
 
         return s[:s_slow] == t[:t_slow]
