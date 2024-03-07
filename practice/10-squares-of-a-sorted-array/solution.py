@@ -17,10 +17,10 @@ class Solution1:
                 j -= 1
             pos -= 1
         return res
-
+    
 
 class Solution2:
-    """解法二: 暴力法
+    """解法二：暴力法
     """
     def sortedSquares(self, nums: List[int]) -> List[int]:
         for i in range(len(nums)):
